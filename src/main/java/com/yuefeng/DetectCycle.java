@@ -66,7 +66,10 @@ public class DetectCycle {
             fast = fast.next;
             if (fast != null) fast = fast.next;
             if (fast == slow) {
-                // todo: 理解为什么要加这个东西
+                // 解题关键：slow 走的路程 x + y; fast走的路程 x + y + y + z;
+                // 且满足 2slow = fast => 2(x+y) = x + y +y + z; => x = z;
+                // x就是开始点到环开始点的距离；z是fast到环开头节点的距离
+                // 也就满足了 head.next.next... = fast.next.next...
                 while (fast != head) {
                     fast = fast.next;
                     head = head.next;
