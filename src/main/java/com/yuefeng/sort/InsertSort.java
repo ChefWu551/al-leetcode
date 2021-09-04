@@ -18,7 +18,7 @@ public class InsertSort {
             int j = i -1;
             for (; j >=0; j--) {
                 if (value < values[j]) {
-                    values[j+1] = values[j];
+                    values[j+1] = values[j]; // 基于原有数据进行移动，比起冒泡用了临时赋值又是一种优化
                 } else {
                     // 这句话很重要，因为性能比冒泡法高很多的关键步骤，因为比较的步骤变少了
                     break;

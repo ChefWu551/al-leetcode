@@ -3,6 +3,7 @@ package main.java.com.yuefeng.sort;
 import java.util.Arrays;
 
 // 选择排序法
+// 原地排序算法，但是不是稳定排序
 public class SelectSort {
 
     public static void main(String[] args) {
