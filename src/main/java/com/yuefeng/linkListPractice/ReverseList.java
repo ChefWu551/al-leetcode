@@ -1,4 +1,4 @@
-package main.java.com.yuefeng;
+package main.java.com.yuefeng.linkListPractice;
 
 import main.java.com.yuefeng.stack.ListNode;
 
@@ -17,6 +17,16 @@ public class ReverseList {
 
         reverseList(node1);
     }
+
+//    public ListNode reversePractice(ListNode head) {
+//        if (head == null || head.next == null) return head;
+//
+//        reversePractice(head.next);
+//        head.next.next = head;
+//        head.next = null;
+//
+//        return head;
+//    }
 
     public static ListNode reverseList(ListNode head) {
         if(head == null || head.next == null)
