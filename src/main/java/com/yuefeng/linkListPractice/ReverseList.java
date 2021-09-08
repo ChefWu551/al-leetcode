@@ -15,19 +15,11 @@ public class ReverseList {
         node3.next = node4;
         node4.next = node5;
 
-        reverseList(node1);
+//        reverseList(node1);
+        method2(node1);
     }
 
-//    public ListNode reversePractice(ListNode head) {
-//        if (head == null || head.next == null) return head;
-//
-//        reversePractice(head.next);
-//        head.next.next = head;
-//        head.next = null;
-//
-//        return head;
-//    }
-
+    // 递归处理
     public static ListNode reverseList(ListNode head) {
         if(head == null || head.next == null)
             return head;
@@ -36,6 +28,35 @@ public class ReverseList {
         head.next.next = head;
         head.next = null;
         return last;
-
     }
+
+    // 粗暴解决
+    public static ListNode method2(ListNode head) {
+        if (head == null || head.next == null) return head;
+
+        int length = 0;
+        ListNode moveNode = head;
+        while (moveNode != null) {
+            length++;
+            moveNode = moveNode.next;
+        }
+
+        int[] values = new int[length];
+        ListNode nodesValue = head;
+        while (nodesValue != null) {
+            values[--length] = nodesValue.val;
+            nodesValue = nodesValue.next;
+        }
+
+        ListNode headBefore = new ListNode(-1); // 关键点1：哨兵位，用于寻找记录最开始的节点
+        ListNode x = headBefore;    // 关键点2：用于对最先声明的链表进行修改，添加对应的元素
+        for (int i =0; i<values.length; i++) {
+            x.next = new ListNode(values[i]);
+            x = x.next;
+        }
+
+        return headBefore.next;
+    }
+
+
 }
