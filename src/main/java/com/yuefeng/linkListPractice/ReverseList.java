@@ -15,8 +15,9 @@ public class ReverseList {
         node3.next = node4;
         node4.next = node5;
 
-//        reverseList(node1);
-        method2(node1);
+        reverseList(node1);
+//        method2(node1);
+        System.out.println("");
     }
 
     // 递归处理
@@ -24,7 +25,7 @@ public class ReverseList {
         if(head == null || head.next == null)
             return head;
 
-        ListNode last = reverseList(head.next);
+        ListNode last = reverseList(head.next); // 这里的last是为了记录翻转链表后的第一个节点，哨兵模式用于记录起始节点，返回结果
         head.next.next = head;
         head.next = null;
         return last;

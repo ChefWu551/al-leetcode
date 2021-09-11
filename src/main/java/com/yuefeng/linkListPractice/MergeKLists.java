@@ -28,13 +28,33 @@ import main.java.com.yuefeng.stack.ListNode;
 public class MergeKLists {
 
     public ListNode mergeKLists(ListNode[] lists) {
-        if(lists.length == 0) return new ListNode();
-        if (lists.length == 1) return lists[0];
+        ListNode r = null;
+        for (int i=0; i<lists.length; i++) {
+            r = merge(r, lists[i]);
+        }
 
-        int length = lists.length;
+        return r;
+    }
 
+    public ListNode merge(ListNode node1, ListNode node2) {
+        ListNode startNode = new ListNode(-1); // 借助哨兵节点
 
-        return null;
+        ListNode moveNode = startNode;
+        while (node1 != null && node2 != null) {
+            if (node1.val <= node2.val) {
+                moveNode.next = node1;
+                node1 = node1.next;
+            } else {
+                moveNode.next = node2;
+                node2 = node2.next;
+            }
 
+            moveNode = moveNode.next;
+        }
+
+        if (node1 == null) moveNode.next = node2;
+        if (node2 == null) moveNode.next = node1;
+
+        return startNode.next;
     }
 }
