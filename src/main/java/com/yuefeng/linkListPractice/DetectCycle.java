@@ -49,7 +49,7 @@ package main.java.com.yuefeng.linkListPractice;
 // 👍 79 👎 0
 
 
-import main.java.com.yuefeng.stack.ListNode;
+import main.java.com.yuefeng.model.ListNode;
 
 public class DetectCycle {
 

@@ -1,4 +1,4 @@
-package main.java.com.yuefeng.stack;
+package main.java.com.yuefeng.model;
 
 import java.util.LinkedList;
 

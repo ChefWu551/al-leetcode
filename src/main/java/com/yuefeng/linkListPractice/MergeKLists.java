@@ -1,6 +1,6 @@
 package main.java.com.yuefeng.linkListPractice;
 
-import main.java.com.yuefeng.stack.ListNode;
+import main.java.com.yuefeng.model.ListNode;
 
 //给定一个链表数组，每个链表都已经按升序排列。
 //

@@ -1,7 +1,8 @@
 package main.java.com.yuefeng.linkListPractice;
 
-import main.java.com.yuefeng.stack.ListNode;
+import main.java.com.yuefeng.model.ListNode;
 
+// 移除链表倒数第N个节点
 public class RemoveNthFromEnd {
 
     public ListNode removeNthFromEnd(ListNode head, int n) {

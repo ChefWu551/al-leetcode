@@ -1,6 +1,6 @@
 package main.java.com.yuefeng.linkListPractice;
 
-import main.java.com.yuefeng.stack.ListNode;
+import main.java.com.yuefeng.model.ListNode;
 
 public class ReverseList {
 

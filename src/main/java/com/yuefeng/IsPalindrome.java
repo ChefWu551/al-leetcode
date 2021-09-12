@@ -22,9 +22,7 @@ package main.java.com.yuefeng;
 // Related Topics 栈 递归 链表 双指针
 // 👍 76 👎 0
 
-import main.java.com.yuefeng.stack.ListNode;
-
-import java.util.List;
+import main.java.com.yuefeng.model.ListNode;
 
 public class IsPalindrome {
 

@@ -1,4 +1,4 @@
-package main.java.com.yuefeng.stack;
+package main.java.com.yuefeng.model;
 
 public class ListNode {
     public int val;            //数据 ：节点数据

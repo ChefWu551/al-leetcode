@@ -1,8 +1,6 @@
 package main.java.com.yuefeng;
 
-import main.java.com.yuefeng.stack.ListNode;
-
-import java.util.LinkedList;
+import main.java.com.yuefeng.model.ListNode;
 
 // 数组和链表基础
 public class ArrayAndLink {

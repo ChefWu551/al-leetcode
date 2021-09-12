@@ -1,10 +1,8 @@
 package main.java.com.yuefeng.graph;
 
-import main.java.com.yuefeng.stack.Graph;
+import main.java.com.yuefeng.model.Graph;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.List;
 import java.util.Queue;
 
 public class BreadthFirstSearch {

@@ -1,6 +1,6 @@
 package main.java.com.yuefeng.graph;
 
-import main.java.com.yuefeng.stack.Graph;
+import main.java.com.yuefeng.model.Graph;
 
 import java.util.LinkedList;
 
