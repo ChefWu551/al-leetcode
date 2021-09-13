@@ -27,18 +27,40 @@ package main.java.com.yuefeng.stackPractice;
 //链接：https://leetcode-cn.com/problems/valid-parentheses
 //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
+import java.util.Deque;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
 
 public class IsValid {
     public static void main(String[] args) {
-        isValid("()");
-
-        System.out.println('(' == ')');
+        System.out.println(isValid(")}"));
     }
 
     public static boolean isValid(String s) {
-       return false;
+        if (s.length() % 2 != 0) return false;
+
+        Map<Character, Character> maps = new HashMap<>();
+        maps.put('}', '{');
+        maps.put(']', '[');
+        maps.put(')', '(');
+
+        Stack<Character> stack = new Stack<Character>();
+        for (int i =0; i<s.length(); i++) {
+            char value = s.charAt(i);
+            if (value == ']' || value == '}' || value == ')') {
+                if (stack.empty()) return false;
+                char stackValue = stack.pop();
+                if (stackValue != maps.get(value)) {
+                    return false;
+                }
+
+                continue;
+            }
+
+            stack.push(value);
+        }
+
+        return stack.empty();
     }
 }
