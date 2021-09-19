@@ -2,7 +2,7 @@
 
 ## 1. 排序：桶排序、计数排序、基数排序
 
-![sort_1](./resource/image/sort_1.jpg)
+![sort_1](resource/image/sort_1.jpg)
 
 ![sort_2](./resource/image/sort_2.jpg)
 
