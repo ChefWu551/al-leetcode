@@ -1,7 +1,7 @@
 package main.java.com.yuefeng.bSearchPractice;
 
 // 二分法查找，带重复的元素
-// 1 3 4 5 6 8 8 8 11 18 中找到 值等于8且最靠前的索引位置，即索引5的位置
+// 1 3 4 5 6 8 8 8 11 18 中找到 值等于8且最靠后的索引位置，即索引7的位置
 public class BSearchWithRepeatElemL {
 
     public static void main(String[] args) {
