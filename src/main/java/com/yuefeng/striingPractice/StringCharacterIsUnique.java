@@ -1,4 +1,4 @@
-package main.java.com.yuefeng;
+package main.java.com.yuefeng.striingPractice;
 
 //实现一个算法，确定一个字符串 s 的所有字符是否全都不同。
 //
