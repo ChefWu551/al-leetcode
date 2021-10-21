@@ -31,21 +31,4 @@ public class LengthOfLongestSubstring {
         return max;
     }
 
-    public int lengthOfLongestSubstring1(String s) {
-        if(s.equals("")) return 0;
-        int max = 0;
-
-        for(int i=0; i<s.length(); i++) {
-            int tc = 1;
-            for(int j=i+1; j<s.length(); j++) {
-
-                if(s.charAt(i) == s.charAt(j)) break;
-                tc++;
-            }
-
-            if(max<tc) max = tc;
-        }
-
-        return max;
-    }
 }
