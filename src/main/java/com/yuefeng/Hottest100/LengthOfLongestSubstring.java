@@ -8,7 +8,7 @@ public class LengthOfLongestSubstring {
 
     public static void main(String[] args) {
         LengthOfLongestSubstring l = new LengthOfLongestSubstring();
-        l.lengthOfLongestSubstring1("abcabcbb");
+        l.lengthOfLongestSubstring("abcabcbb");
     }
 
     //    7.58%
