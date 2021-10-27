@@ -13,6 +13,7 @@ public class Dp_Bag0_1 {
 
 
         Dp_Bag0_1 b = new Dp_Bag0_1();
+        b.f(0, 0, items, 5, 9);
 //        System.out.println(b.f01MaxItem(items, 9));
         System.out.println(b.f01MaxValue(items, 9, values));
     }
