@@ -8,7 +8,7 @@ public class Day19FL_Count_SumNums {
 
     public static void main(String[] args) {
         Day19FL_Count_SumNums d = new Day19FL_Count_SumNums();
-        d.sumNums(3);
+        d.sumNums(5);
     }
 
     int res = 0;
