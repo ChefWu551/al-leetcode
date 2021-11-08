@@ -1,11 +1,9 @@
 package main.java.com.yuefeng.paracticeOfOffer;
 
-
+// https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/
 public class Day20FZ_Count_MyPow {
 
     public static void main(String[] args) {
-
-
         Day20FZ_Count_MyPow d = new Day20FZ_Count_MyPow();
         System.out.println(d.myPow(1, -2147483648));
 
