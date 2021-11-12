@@ -6,18 +6,17 @@
 
 #### 1-10
 
-| 序号 | 题目                                                         | 完成度 | 日期 | className |
-| ---- | ------------------------------------------------------------ | ------ | ---- | --------- |
-| 1    | [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)     |        |      |           |
-| 2    | [2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/) |        |      |           |
-| 3    | [3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) |        |      |           |
-| 4    | [4. 寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/) |        |      |           |
-| 5    | [5. 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) |        |      |           |
-| 6    | [7. 整数反转](https://leetcode-cn.com/problems/reverse-integer/) |        |      |           |
-| 7    | [8. 字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/) |        |      |           |
-| 8    | [9. 回文数](https://leetcode-cn.com/problems/palindrome-number/) |        |      |           |
-| 9    | [12. 整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/) |        |      |           |
-| 10   | [13. 罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/) |        |      |           |
+| 序号 | 题目                                                         | 效率       | 复习 |
+| ---- | ------------------------------------------------------------ | ---------- | ---- |
+| 1    | [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)     | 17% \| 86% |      |
+| 2    | [2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | 92%        |      |
+| 3    | [3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | 72%        | y    |
+| 4    | [4. 寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/) |            |      |
+| 5    | [5. 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) |            |      |
+| 6    | [7. 整数反转](https://leetcode-cn.com/problems/reverse-integer/) |            |      |
+| 7    | [8. 字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/) |            |      |
+| 8    | [9. 回文数](https://leetcode-cn.com/problems/palindrome-number/) |            |      |
+| 9    | [12. 整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/) |            |      |
 
 #### 11-20
 
